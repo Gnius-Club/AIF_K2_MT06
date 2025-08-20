@@ -1,24 +1,215 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 6</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 6 Kínder</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: Descubriendo la Lógica en Cada Esquina</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>- Identificar ejemplos de lógica "si-entonces" en la vida cotidiana.</li>
+<li>- Conectar el concepto abstracto de la lógica con situaciones reales.</li>
+<li>- Crear un escenario comunitario usando la lógica.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: ¡Despertando la Curiosidad Lógica!</li>
+<li>⚡ Actividad 2: El Misterio del Bombero Lógico</li>
+<li>⚡ Actividad 3: Construyendo la Ciudad de las Decisiones</li>
+<li>⚡ Actividad 4: ¡Nuestras Historias Cobran Vida!</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación y verbalización de una historia comunitaria que demuestre una regla 'Si-Entonces' clara y observable, utilizando los materiales provistos.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>- Set de Personas de LEGO (para representar personajes).</li>
+<li>- Bloques LEGO Duplo para construir (para escenarios comunitarios).</li>
+<li>- Tarjetas grandes con "Si" (un ojo observando) y "Entonces" (una flecha de acción).</li>
+<li>- Espacio amplio para que los niños trabajen en equipos y dramatizen.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos en los equipos. Tener las tarjetas "Si" y "Entonces" a mano.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad en equipos. Designar áreas para la construcción y un espacio central para la dramatización final.</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Practicar los ejemplos de "si-entonces" para presentarlos con fluidez.</li>
+<li><strong>Anticipación:</strong> Pensar en posibles preguntas o dificultades que puedan surgir y cómo guiar a los niños hacia las respuestas por sí mismos.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Despertando la Curiosidad Lógica! ⏰ 5 min</h2>
+<p>Un inicio lleno de preguntas para calentar nuestros cerebros detectivescos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: "¿Qué Pasaría Si...?" ⏰ 5 min</h3>
+<p>Inicia una conversación interactiva con los niños, planteando preguntas "si-entonces" relacionadas con su vida diaria y el entorno escolar. Utiliza estas preguntas para introducir el concepto de causa y efecto de manera sencilla y lúdica. (Proyectar Diapositiva 1: Imagen de un semáforo en rojo o niños en el recreo).</p>
+<p><strong>Guía para el Maestro:</strong> Comienza con entusiasmo, buscando captar la atención de todos. Anima a los niños a responder con gestos o palabras. Después de las primeras preguntas, puedes hacer una pausa y preguntar: "¿Se dieron cuenta de que siempre que pasa algo, luego pasa otra cosa?". (Proyectar Diapositiva 2: Iconos de "Si" y "Entonces" con ejemplos simples de la vida cotidiana).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, equipo de exploradores lógicos! ¡Qué alegría verlos hoy listos para una nueva aventura! Hoy vamos a ser como detectives súper listos que descubren los secretos de cómo funciona el mundo. ¡Es como un juego de adivinanzas donde una cosa nos lleva a la otra!</p>
+<p class="dialogue assistant">Miren, les tengo una pregunta para empezar nuestro calentamiento cerebral: ¿Qué pasaría, por ejemplo, <b>SI</b> vemos que el semáforo para los coches está en rojo? (Esperar respuestas, guiar si es necesario: "¡Exacto! Los coches se detienen, ¿verdad?") ¡Entonces, <b>ENTONCES</b> los coches se detienen! ¡Muy bien!</p>
+<p class="dialogue assistant">Ahora piensen en la escuela: ¿Qué hacemos <b>SI</b> escuchamos la campana del recreo? (Esperar respuestas: "¡Vamos a jugar!", "¡Salimos al patio!") ¡Sí, <b>ENTONCES</b> salimos corriendo a jugar! ¡Ustedes son unos genios de la lógica sin siquiera saberlo! Cada vez que algo pasa, ¡siempre hay una consecuencia o algo que sucede después! ¿Verdad que es divertido?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio del Bombero Lógico ⏰ 5 min</h2>
+<p>Descubramos juntos cómo las acciones tienen consecuencias, ¡como en una buena historia!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: "El Secreto del Bombero" ⏰ 5 min</h3>
+<p>Utiliza las figuras de LEGO para dramatizar la regla "si-entonces" del bombero. Muestra las tarjetas grandes con el símbolo de "Si" (un ojo observando) y "Entonces" (una flecha de acción) mientras cuentas la historia. (Proyectar Diapositiva 3: Imagen de un bombero o camión de bomberos LEGO).</p>
+<p><strong>Guía para el Maestro:</strong> Haz la dramatización vívida y emocionante. Mueve las figuras de LEGO para que los niños puedan visualizar la acción. Al presentar las tarjetas, enfatiza su significado: "Si" es la causa, "Entonces" es el efecto. Puedes incluso pedir a los niños que hagan un sonido de alarma cuando muestres la tarjeta "Si". (Proyectar Diapositiva 4: Las tarjetas "Si" y "Entonces" con el ejemplo del bombero ilustrado).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué bien observan y qué rápido aprenden! Ahora, pongan mucha atención, porque les voy a contar un secreto y les voy a presentar a un amigo muy especial. ¡<b>Hoy vamos a ser arquitectos y narradores</b> de historias increíbles! Les presento a nuestro amigo, el bombero de LEGO. ¡Mírenlo bien!</p>
+<p class="dialogue assistant">Imaginen esta situación, ¡es un día normal en la estación de bomberos! De repente, ¡suena una alarma muy fuerte! (Muestra la tarjeta "Si" con el ojo). Cuando el bombero escucha esa alarma... (haz un sonido de alarma fuerte y dramático) ¡Eso es el <b>SI</b>! Es la señal de que algo está pasando.</p>
+<p class="dialogue assistant">Y entonces, ¿qué creen que hace nuestro amigo el bombero <b>ENTONCES</b>? (Muestra la tarjeta "Entonces" con la flecha de acción). ¡Pues sí, corre rapidísimo, se pone su casco y se sube a su gran camión rojo para ir a ayudar! (Mueve el bombero de LEGO hacia el camión). ¡Así es como el mundo funciona, mis pequeños lógicos, una cosa lleva a la otra! El <b>SI</b> es lo que pasa primero, y el <b>ENTONCES</b> es lo que sucede después. ¿Lo ven? ¡Es como magia, pero es lógica!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: Construyendo la Ciudad de las Decisiones ⏰ 25 min</h2>
+<p>¡Manos a la obra! Es hora de crear nuestro propio mundo de reglas y aventuras.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: "Preparando Nuestro Escenario Comunitario" ⏰ 5 min</h3>
+<p>Divide a los niños en equipos (2-3 niños por equipo es ideal) y les entrega los materiales: un set de figuras de LEGO y una buena cantidad de bloques LEGO Duplo. Explícales que, en sus equipos, construirán una pequeña escena de la comunidad, como un hospital, una escuela, una estación de policía, o un parque. (Proyectar Diapositiva 5: Ejemplos de construcciones comunitarias simples con LEGO Duplo).</p>
+<p><strong>Guía para el Maestro:</strong> Asegúrate de que cada equipo tenga suficiente espacio y materiales. Fomenta la colaboración desde el principio. Puedes sugerirles que piensen en lugares que conocen en su propia comunidad. Circula para ofrecer ayuda si algún equipo se siente atascado.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Magnífico, equipo! Ahora que entendemos un poquito más de la lógica, ¡es hora de construir nuestro propio mundo! ¡Vamos a construir una ciudad donde suceden cosas importantes y donde la lógica nos ayuda a entender todo!</p>
+<p class="dialogue assistant">Cada equipo va a ser como un grupo de arquitectos y diseñadores. Van a usar todos estos bloques mágicos de LEGO Duplo para crear una pequeña parte de nuestra comunidad. ¿Qué les gustaría construir? ¿Un hospital donde los doctores ayudan a las personas? ¿Una escuela donde los niños aprenden y juegan? ¿Un parque divertido? ¡Piensen juntos y pongan sus manos a la obra! ¡Usen su imaginación y construyan algo increíble!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: "Creando Historias Lógicas" ⏰ 20 min</h3>
+<p>Una vez que las escenas comunitarias estén tomando forma, guía a los equipos para que elijan un personaje (una figura de LEGO) de su escena y creen una historia corta con una regla "si-entonces" para ese personaje. Anímalos a pensar en situaciones cotidianas dentro de su escena. Circula entre los equipos, ofreciendo apoyo, haciendo preguntas que los guíen y recordándoles el uso de las tarjetas "Si" y "Entonces" para estructurar su idea. (Proyectar Diapositiva 6: Un ejemplo sencillo de "Si-Entonces" aplicado a un personaje de una escena comunitaria, como un cartero).</p>
+<p><strong>Guía para el Maestro:</strong> Este es el corazón de la actividad. Haz preguntas como: "¿Qué hace este personaje en tu hospital/escuela?", "¿Qué problema podría tener?", "¿Qué pasaría *si* ocurre algo, y *entonces* qué hace tu personaje?". Ayúdalos a verbalizar la regla claramente. Recuérdales que no hay respuestas incorrectas y que la creatividad es clave.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué construcciones tan geniales! ¡Nuestra ciudad está quedando espectacular! Ahora viene lo más emocionante: ¡vamos a inventar una historia para nuestra ciudad usando la lógica "Si-Entonces"! Piensen en uno de los personajes de LEGO que están en su escena. ¿Qué hace ese personaje? ¿Es un doctor, un maestro, un niño, un policía?</p>
+<p class="dialogue assistant">Ahora, piensen en una regla "si-entonces" para ese personaje. Por ejemplo, en el hospital, ¿qué pasaría <b>SI</b> el doctor ve a un paciente enfermo? (Esperar ideas) ¡Muy bien! <b>ENTONCES</b> le daría una medicina o lo revisaría. ¡Esa es una regla lógica!</p>
+<p class="dialogue assistant">En la escuela, ¿qué pasaría <b>SI</b> la maestra ve que un niño está triste? <b>ENTONCES</b>, ¿qué haría? ¡Le daría un abrazo o le preguntaría qué le pasa! ¡Ustedes tienen las mejores ideas! Recuerden, no hay respuestas equivocadas, ¡solo mucha creatividad y lógica! Si necesitan ayuda, ¡aquí estoy para guiarlos!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Nuestras Historias Cobran Vida! ⏰ 5 min</h2>
+<p>Compartamos nuestras increíbles creaciones y celebremos el ingenio de cada equipo.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: "¡El Escenario es Nuestro!" ⏰ 3 min</h3>
+<p>Invita a algunos equipos (o a todos, si el tiempo lo permite y son pocos) a pasar al frente con su construcción y dramatizar brevemente su historia "si-entonces" para el resto de la clase. Anímalos a usar las figuras de LEGO y a verbalizar claramente su regla. (Proyectar Diapositiva 7: Imagen de niños presentando sus creaciones o dramatizando).</p>
+<p><strong>Guía para el Maestro:</strong> Pide a los niños que se sienten en un círculo o semicírculo para que todos puedan ver bien. Ofrece el "micrófono imaginario" para que se sientan cómodos al hablar. Asegúrate de que cada equipo que participe tenga la oportunidad de mostrar su construcción y decir su regla "si-entonces".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡EQUIPO, estoy impresionada con su ingenio y sus construcciones! ¡Es momento de compartir estas historias tan lógicas que han creado! ¿Quién de ustedes quiere ser el primero en tomar el <b>micrófono imaginario</b> y contarnos la historia 'si-entonces' de su ciudad? ¡No sean tímidos, sus ideas son oro puro! ¡Recuerden mostrar su construcción y decirnos qué pasa <b>SI</b> y qué pasa <b>ENTONCES</b>!</p>
+<p class="dialogue assistant">¡Bravo! ¡Qué historia tan clara! ¿Alguien más quiere compartir su historia lógica? ¡Tenemos tiempo para algunas más! ¡Vamos, valientes narradores!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: "Reflexión y Aplausos" ⏰ 2 min</h3>
+<p>Dirige una breve sesión de reflexión, preguntando a los niños qué fue lo que más les gustó o lo que aprendieron. Celebra los logros de todos los equipos, reforzando el concepto de lógica "si-entonces" como una herramienta para entender el mundo. (Proyectar Diapositiva 8: Un resumen visual de "Si-Entonces" y un gran "¡Misión Cumplida!").</p>
+<p><strong>Guía para el Maestro:</strong> Termina la clase con energía y positividad. Haz preguntas abiertas para fomentar la participación. Asegúrate de aplaudir y reconocer el esfuerzo de cada niño. Recuérdales que la lógica está en todas partes y que ellos son ahora "detectives lógicos".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, bravo, bravo! ¡Qué historias tan maravillosas y qué lógica tan sorprendente! ¡Estoy muy orgullosa de cada uno de ustedes! ¡Hoy descubrimos que la lógica está en todas partes, desde un semáforo hasta un bombero, y que nosotros podemos crear nuestras propias reglas lógicas!</p>
+<p class="dialogue assistant">¡<b>MISIÓN CUMPLIDA, SÚPER LÓGICOS!</b> ¿Qué fue lo que más les gustó de construir y contar sus historias? (Esperar respuestas y escuchar atentamente). ¡Recuerden, a partir de hoy, siempre que vean algo pasar, pueden preguntarse: '¿Y qué pasó <b>SI</b>... <b>ENTONCES</b>...?'! ¡Son los mejores detectives de la lógica del mundo! ¡Un aplauso enorme para ustedes!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
